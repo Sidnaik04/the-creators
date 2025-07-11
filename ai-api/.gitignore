@@ -1,0 +1,41 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# OS/system junk
+.DS_Store
+Thumbs.db
+
+# Logs or runtime
+*.log
+*.sqlite3
+
+# pip cache
+pip-wheel-metadata/
+*.egg-info/
+
+# Python test reports
+htmlcov/
+.coverage
+
+# Jupyter Notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# Data (Optional: if you're pushing data/quiz/fallbacks)
+data/*.json
+
+# Uvicorn reload files
+*.reload
+
+# Ignore secrets or keys
+keys.json
